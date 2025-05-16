@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naveen's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="https://media.licdn.com/dms/image/v2/D4E03AQE_N_Uc6ugbWw/profile-displayphoto-shrink_800_800/B4EZQYi0MFGwAg-/0/1735578568051?e=1741219200&v=beta&t=IE2Z-11DPIVbh0IU_X-wmjO2aqFLWsV46oXI6g9OJrs" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="https://media.licdn.com/dms/image/v2/D4E03AQE_N_Uc6ugbWw/profile-displayphoto-shrink_800_800/B4EZQYi0MFGwAg-/0/1735578568051?e=1741219200&v=beta&t=IE2Z-11DPIVbh0IU_X-wmjO2aqFLWsV46oXI6g9OJrs" alt="Naveen Yerra" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Naveen Yerra">Naveen <br>Yerra</h1>
+
+          <p class="title">Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">vennela9973@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (971) 208-7149</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">October 13, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tampa, Florida, USA, 33612.</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a target="_blank" href="https://www.linkedin.com/in/siri-vennela-Yerra-245034343/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a target="_blank" href="https://github.com/Sirivennela47" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="mailto:vennela9973@gmail.com" class="social-link">
+              <ion-icon name="mail"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+          
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am Naveen Yerra. I have <b>7+ years of experience as a Full Stack Developer</b>, working extensively in enterprise software application development, testing, maintenance, and production support. As a <b>Full-Stack Developer</b>, I have contributed to the entire application lifecycle, from <b>frontend to backend</b>. <br/> 
+            On the backend, I have utilized technologies like <b>Java and Spring Boot</b> to develop scalable <b>microservices</b>, as well as <b>monolithic applications using JSP and Servlets</b>. I have worked with database frameworks like <b>Hibernate, JDBC, and JPA</b>, and performed testing using <b>JUnit and Mockito</b>. <br/> 
+            I have experience with both <b>SQL and NoSQL databases</b>. For SQL databases, I have worked with <b>PostgreSQL, MySQL, and Oracle</b>, while for NoSQL, I have worked with <b>MongoDB and DynamoDB</b> on AWS. I have written APIs for performing CRUD operations using the <b>Hibernate ORM</b> and deployed <b>Spring Boot-based microservices on AWS</b> using <b>Jenkins CI/CD pipelines</b>. Additionally, I have worked with <b>Docker</b> and <b>Kubernetes</b> for containerization and orchestration.<br/>
+            On AWS, I have utilized services like <b>IAM, EC2, S3, CloudWatch, and Route 53</b>, among others, for deployment and monitoring. I have also used <b>Swagger</b> for API documentation. <br/> 
+            For frontend technologies, I have built dynamic user interfaces using <b>ReactJS and Angular</b>, ensuring a seamless user experience with reusable components and responsive design.
+        </p>
+        
+
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Clients</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://assets.simon.com/tenantlogos/33280.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>PNC Bank,Pittsburgh, Pennsylvania</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The PNC Financial Services Group, Inc. is an American bank holding company and financial services corporation based in Pittsburgh, Pennsylvania
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/NG_Logo_1024x768.png/800px-NG_Logo_1024x768.png" alt="Jessica miller" height="60" width="40" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>NextGen Health care, Atlanta,GA</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    NextGen Healthcare, Inc. is an American software and services company headquartered in Atlanta, Georgia.                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TheHomeDepot.svg/800px-TheHomeDepot.svg.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>The Home Depot,Atlanta,GA </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The Home Depot, Inc is an American multinational home improvement retail corporation that sells tools, construction products, appliances, and services, including fuel and transportation rentals
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://media.licdn.com/dms/image/v2/C560BAQE_3-_o2yYMtA/company-logo_200_200/company-logo_200_200/0/1631354001812?e=1743638400&v=beta&t=rntR-61Pn4Sxm-i7CcrffxjRN69gKEskP0K9nSIskkU" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>ProPlus Logics, Coimbatore , India.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    ProPlus Logics is a reputed web development company in Coimbatore, Tamilnadu that has served different businesses from different industries in India
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Experience</h2>
+        </header>
+
+      <a href="https://web.whatsapp.com/" target="_blank">
+        <button class="form-btn" type="submit" data-form-btn>
+          <ion-icon name="download"></ion-icon>
+          <span>Full Resume</span>
+        </button>
+      </a>
+        <!-- <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+
+              <span>2007 — 2008</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+
+              <span>2006 — 2007</span>
+
+              <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section> -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PNC Bank, Pittsburgh, Pennsylvania, United States</h4>
+
+              <span><b>Sr. Full stack Developer</b>, (Feb 2023 – Till Date)</span>
+              <p class="timeline-text"><strong>Web Development Expertise</strong>: Designed and developed responsive web pages using <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>JavaScript</strong>, ensuring a seamless user experience for financial operations. Integrated <strong>jQuery</strong> and <strong>AJAX</strong> to enable real-time updates without page reloads.</p>
+              
+              <p class="timeline-text"><strong>React Development</strong>: Built scalable and reusable UI components using <strong>ReactJS</strong> for workflows like ACH, wire transfers, and bill payments. Enhanced application performance by leveraging <strong>memoization</strong>, <strong>lazy loading</strong>, and optimizing component rendering.</p>
+              
+              <p class="timeline-text"><strong>Redux Integration</strong>: Implemented <strong>Redux</strong> for efficient state management across the application, ensuring robust and dynamic front-end workflows for customer-facing services.</p> <p class="timeline-text"><strong>Form Validations</strong>: Designed and implemented dynamic forms with advanced validations, simplifying data entry for users and ensuring input integrity before submitting data to the server.</p> 
+              
+              <p class="timeline-text"><strong>Spring Boot Integration</strong>: Developed and maintained robust backend services using <strong>Spring Boot</strong>, enabling secure communication between microservices through <strong>RESTful APIs</strong>.</p> <p class="timeline-text"><strong>Asynchronous Messaging</strong>: Implemented event-driven architecture using <strong>Apache Kafka</strong> for asynchronous messaging, ensuring reliable communication between services and real-time data processing.</p> 
+              
+              <p class="timeline-text"><strong>Database Management</strong>: Configured and optimized database operations using <strong>Hibernate ORM</strong> and <strong>Spring Data JPA</strong> for <strong>MongoDB</strong>, ensuring efficient handling of high-volume transactional data.</p> <p class="timeline-text"><strong>Cloud Deployment</strong>: Deployed microservices on <strong>AWS EC2 instances</strong> and configured <strong>Auto Scaling Groups</strong> to ensure high availability and scalability. Improved content delivery with <strong>AWS CloudFront</strong> and secured data storage with <strong>AWS S3</strong>.</p>
+              
+              <p class="timeline-text"><strong>CI/CD Automation</strong>: Automated build and deployment pipelines using <strong>Jenkins</strong>, enabling reliable CI/CD workflows and reducing manual intervention during releases.</p> <p class="timeline-text"><strong>Testing and Monitoring</strong>: Focused on <strong>Test Driven Development</strong>, creating comprehensive unit tests with <strong>JUnit</strong> and integration tests with <strong>Mockito</strong>. Configured <strong>Spring Boot Actuator</strong> and integrated <strong>Splunk</strong> for real-time application health monitoring and centralized logging.</p>
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NextGen Health Care, Atlanta, United States.</h4>
+
+              <span><b>Full Stack Developer, </b>(April 2021 - Jan 2023)</span>
+
+              <p class="timeline-text"><strong>Web Designing</strong>: Involved in web designing using <strong>HTML 4/5</strong>, <strong>XHTML</strong>, <strong>CSS 2/3</strong>, <strong>JavaScript</strong> and extensively used <strong>Table Less Design</strong> in CSS for positioning.</p>
+
+<p class="timeline-text"><strong>Angular Development</strong>: Created <strong>TypeScript</strong> reusable components and services to consume <strong>REST APIs</strong> using component-based architecture with <strong>Angular</strong>.</p>
+
+<p class="timeline-text"><strong>Client-Side Interface</strong>: Implemented client-side interface using <strong>Angular</strong> and <strong>Node.js</strong> to structure JavaScript code in an <strong>MVC</strong>.</p>
+
+<p class="timeline-text"><strong>SPA and MPA Development</strong>: Implemented <strong>Single Page Web Applications (SPA)</strong> and <strong>Multi Page Web Applications</strong> based on <strong>Angular</strong> for CRUD operations on user records.</p>
+
+<p class="timeline-text"><strong>Microservices Architecture</strong>: Created and configured <strong>Microservices architecture</strong> for CDT Directory project and integrated it with <strong>AngularJS</strong> application.</p>
+
+<p class="timeline-text"><strong>Web Designing</strong>: Designed and developed responsive web pages using <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>JavaScript</strong>, ensuring a seamless user experience for healthcare providers and patients.</p>
+
+<p class="timeline-text"><strong>React Development</strong>: Built reusable and dynamic UI components using <strong>ReactJS</strong> to simplify workflows for patient records, insurance claims, and billing operations.</p> 
+
+<p class="timeline-text"><strong>Client-Side Interface</strong>: Implemented interactive client-side interfaces using <strong>ReactJS</strong>, integrating seamlessly with REST APIs for real-time data synchronization and updates.</p>
+
+<p class="timeline-text"><strong>SPA Development</strong>: Developed a fully responsive <strong>Single Page Application (SPA)</strong> architecture, enabling efficient CRUD operations on patient and claims data for role-based users.</p> 
+
+<p class="timeline-text"><strong>Microservices Architecture</strong>: Designed and configured scalable <strong>microservices architecture</strong> using <strong>Spring Boot</strong>, ensuring high availability and fault tolerance for healthcare workflows.</p> 
+
+<p class="timeline-text"><strong>Spring Framework</strong>: Utilized <strong>Spring Batch</strong> for automating claims processing and patient record synchronization while leveraging <strong>Spring Actuator</strong>, <strong>Spring Cloud</strong>, and <strong>Spring Sleuth</strong> for application monitoring and logging.</p>
+
+<p class="timeline-text"><strong>Data Management</strong>: Developed efficient database operations using <strong>Hibernate ORM</strong> and <strong>Spring Data JPA</strong>, ensuring secure and efficient handling of patient and billing data stored in <strong>Oracle DB</strong>.</p> 
+
+<p class="timeline-text"><strong>Testing</strong>: Created unit tests using <strong>JUnit</strong> and integration tests using <strong>Mockito</strong>, achieving over 90% test coverage. Utilized <strong>Jest</strong> and <strong>React Testing Library</strong> for front-end testing to ensure stability.</p>
+
+<p class="timeline-text"><strong>RabbitMQ Integration</strong>: Implemented event-driven messaging with <strong>RabbitMQ</strong>, ensuring real-time notifications for claims processing and updates to patient records.</p>
+
+<p class="timeline-text"><strong>Cloud Deployment</strong>: Deployed microservices on <strong>Azure Kubernetes Service (AKS)</strong>, ensuring scalable and fault-tolerant infrastructure for production workloads.</p>
+
+<p class="timeline-text"><strong>Secure Storage</strong>: Configured <strong>Azure Blob Storage</strong> for securely storing patient records and billing documents, meeting HIPAA compliance standards.</p> 
+
+<p class="timeline-text"><strong>CI/CD Pipelines</strong>: Automated build and deployment pipelines using <strong>Azure DevOps</strong> and <strong>Jenkins</strong>, improving release cycles and deployment efficiency.</p>
+
+<p class="timeline-text"><strong>Error Handling and Monitoring</strong>: Debugged backend performance issues with <strong>New Relic</strong> and configured <strong>Spring Boot Actuator</strong> for real-time health monitoring of microservices.</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">The Home Depot, Atlanta, GA.</h4>
+
+              <span><b>Software Developer, </b>(Feb 2019 - March 2021)</span>
+
+              <p class="timeline-text"><strong>Web Development</strong>: Designed and maintained dynamic web pages using <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>JavaScript</strong>, ensuring an intuitive and user-friendly shopping experience. Utilized <strong>Bootstrap</strong> for responsive layouts across devices.</p> 
+              
+              <p class="timeline-text"><strong>React Development</strong>: Built reusable and dynamic UI components using <strong>ReactJS</strong>, enabling seamless navigation for product catalogs, shopping carts, and order histories. Implemented features such as category-based filtering and dynamic cart summaries.</p>
+              
+              <p class="timeline-text"><strong>Interactive Features</strong>: Developed interactive components like <strong>Recently Viewed Products</strong> using local storage to improve customer engagement and streamline user workflows.</p>
+              
+              <p class="timeline-text"><strong>API Integration</strong>: Integrated with multiple payment gateways such as <strong>PayPal</strong>, <strong>Stripe</strong>, and <strong>Apple Pay</strong> to ensure secure and reliable payment processing for customers.</p> 
+              
+              <p class="timeline-text"><strong>Address Validation</strong>: Integrated <strong>Google Maps API</strong> for address suggestions and validation during checkout, reducing failed deliveries caused by incorrect inputs.</p>
+              
+              <p class="timeline-text"><strong>Microservices Architecture</strong>: Designed and deployed scalable <strong>microservices</strong> using <strong>Spring Boot</strong>, ensuring modular functionality for product retrieval, cart management, and checkout processes.</p>
+              
+              <p class="timeline-text"><strong>Spring Framework</strong>: Leveraged <strong>Spring Batch</strong> to implement bulk inventory management processes, enabling efficient updates to product catalogs. Utilized <strong>Spring MVC</strong> for seamless routing and business logic processing.</p> 
+              
+              <p class="timeline-text"><strong>Database Management</strong>: Wrote and optimized complex <strong>SQL queries</strong> for product data retrieval, ensuring fast and accurate search results from the <strong>Oracle DB</strong>.</p>
+              
+              <p class="timeline-text"><strong>Testing</strong>: Conducted unit tests using <strong>JUnit</strong> and front-end tests using <strong>React Testing Library</strong> and <strong>Jest</strong>, ensuring application stability and reliability.</p>
+              
+              <p class="timeline-text"><strong>Performance Optimization</strong>: Improved page load times by utilizing <strong>React.memo</strong> and implementing lazy loading techniques for high-traffic pages.</p>
+              
+              <p class="timeline-text"><strong>AWS Deployment</strong>: Deployed microservices on <strong>AWS EC2 instances</strong> with <strong>Auto Scaling Groups</strong> to ensure high availability. Managed application artifacts and backups using <strong>AWS S3</strong>.</p> 
+              
+              <p class="timeline-text"><strong>CI/CD Automation</strong>: Automated build and deployment pipelines using <strong>Jenkins</strong>, ensuring faster and reliable release cycles. Configured continuous monitoring and logging with <strong>Splunk</strong>.</p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Proplus Logics, Coimbatore, India.</h4>
+
+              <span><b>Application Developer, </b>(July 2017 – Jan 2019)</span>
+
+             <p class="timeline-text"><strong>User Interface Design</strong>: Designed and developed responsive web interfaces using <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Bootstrap</strong>, ensuring compatibility across mobile and desktop devices.</p>
+             
+             <p class="timeline-text"><strong>Interactive Components</strong>: Built interactive components with <strong>jQuery</strong> and <strong>AJAX</strong> to enable real-time product updates and customer inquiry submissions without requiring full page reloads.</p>
+             
+             <p class="timeline-text"><strong>RESTful API Integration</strong>: Developed and integrated <strong>RESTful APIs</strong> using <strong>Spring Boot</strong>, ensuring seamless communication between the front-end interface and backend services for product management and inquiries.</p>
+             
+             <p class="timeline-text"><strong>Database Management</strong>: Wrote and optimized <strong>SQL queries</strong> and utilized <strong>JDBC Framework</strong> for database operations to manage customer and product data effectively.</p>
+             
+             <p class="timeline-text"><strong>Content Management</strong>: Implemented a user-friendly content management system to allow the client to update product details, promotional banners, and pricing without requiring technical assistance.</p>
+             
+             <p class="timeline-text"><strong>Performance Optimization</strong>: Conducted debugging and performance tuning to ensure stable and fast web application performance across varying usage scenarios.</p> 
+             
+             <p class="timeline-text"><strong>Build Framework Tools</strong>: Automated build and deployment processes using <strong>Maven</strong>, ensuring smooth integration and quick project builds for development and production environments.</p> 
+             
+             <p class="timeline-text"><strong>Agile Methodology</strong>: Collaborated with cross-functional teams in an <strong>Agile environment</strong>, participating in sprint planning, daily stand-ups, and iterative development cycles to deliver incremental features.</p>
+             
+             <p class="timeline-text"><strong>Deployment and Support</strong>: Assisted with deploying the solution on the client’s hosting environment and provided post-deployment support, addressing issues and ensuring seamless client operations.</p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+<ul class="skills-list content-card timeline-text">
+  <ul>
+      <li><strong>Java/J2EE Technologies</strong>: Java, JSP, Servlets/Applets, JDBC, JMS, JSTL, EJB, Custom tags, EJB, JavaBeans, JNDI, RMI, EJB Session Beans, Entity Beans</li>
+      <li><strong>Frameworks</strong>: ReactJS 15.x to 17.x, Angular11, NodeJS, JSF2.x, Hibernate (JPA, XML), Spring (CORE, BOOT, SECURITY, AOP, MVC, Batch, Actuator, Cloud, Sleuth)</li>
+      <li><strong>IDE & Editors</strong>: Eclipse, RAD and Net Beans, Notepad++, Visual Studio, Edit Plus, Sublime Text, IntelliJ IDEA</li>
+      <li><strong>Web Services</strong>: SOAP, REST, WSDL, UDDI, JAX RS, JAX WS, Swagger/OpenAPI</li>
+      <li><strong>Design Methodologies</strong>: J2EE Design Patterns (MVC, MVP, MVVM, Singleton), Microservices Architecture, Pub-Sub Architecture</li>
+      <li><strong>Open Source</strong>: JUNIT, log4j, GIT, CVS, SVN, Mockito, Cypress, Jasmine, React Testing Library</li>
+      <li><strong>Platforms</strong>: Windows, UNIX, LINUX (ubuntu), Azure</li>
+      <li><strong>AWS</strong>: EC2, ECS, RDS, Serverless Lambda, Load Balancer, Auto Scaling Group, S3 Bucket, SNS, CloudWatch, CloudFormation, Security Groups, Route 53, EKS (Elastic Kubernetes Service)</li>
+      <li><strong>Databases</strong>: Oracle 11g/10g/9i/8i, MS SQL Server, MYSQL-SQL&PL/SQL, Neo4j, NoSQL, MongoDB, Redis, PostgreSQL</li>
+      <li><strong>Web Technologies</strong>: HTML5, DHTML, CSS (Bootstrap), JavaScript, AJAX, XML, DTD/XSD, XSLT, DOM/SAX, JAXP, JAXB, JSON, jQuery 3.x, DOJO, TypeScript</li>
+      <li><strong>Scripting Languages</strong>: Maven, Ant, JavaScript, UNIX, Python, YAML</li>
+      <li><strong>Tools</strong>: JIRA, Jenkins, Splunk, New Relic, Chrome DevTools, Azure DevOps</li>
+      <li><strong>Web/Application Servers</strong>: WebSphere 8.x, Tomcat 7.x, WebLogic 9.x, JBOSS</li>
+      <li><strong>Containers</strong>: Docker, Kubernetes</li>
+</ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a target="_blank" href="https://pranavlysrchapi.ccbp.tech/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/pranav-s-org/image/upload/v1719239074/samples/landscapes/Screenshot_2024-06-24_102017_lnbosd.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lyrics Search Website</h3>
+
+                <p class="project-category">Music</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a target="_blank" href="https://pranavpswdgenr.ccbp.tech/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/pranav-s-org/image/upload/v1719239446/samples/landscapes/Screenshot_2024-06-24_102936_nta9sh.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Password Generator</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a target="_blank" href="https://puttapranavreddy.github.io/PranavFoodapp/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/pranav-s-org/image/upload/v1719239638/samples/landscapes/Screenshot_2024-06-24_103336_ydifbt.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Food Munch Website</h3>
+
+                <p class="project-category">Online Food Order</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a target="_blank" href="https://pranavwikipedia.ccbp.tech/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/pranav-s-org/image/upload/v1719239751/samples/landscapes/Screenshot_2024-06-24_103540_jmsgdj.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wikipedia Search App</h3>
+
+                <p class="project-category">Web Search</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a target="_blank" href="https://pranavspeedtype.ccbp.tech/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/pranav-s-org/image/upload/v1719239878/samples/landscapes/Screenshot_2024-06-24_103743_c37zv3.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Speed Typing Test Website</h3>
+
+                <p class="project-category">Keyboard Typing test</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a target="_blank" href="https://pranavbookmark.ccbp.tech/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/pranav-s-org/image/upload/v1719240075/samples/landscapes/Screenshot_2024-06-24_104057_cce0si.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bookmark Maker</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a target="_blank" href="https://pranavecommerce.ccbp.tech/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/pranav-s-org/image/upload/v1719240282/samples/landscapes/Screenshot_2024-06-24_104404_smelww.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fly Buy</h3>
+
+                <p class="project-category">Ecommerce Website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 23, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    By <b>Naveen.</b>
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 3, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    By <b>Naveen.</b>
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Aug 17, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    By <b>Naveen.</b>
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">UI Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">June 18, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    By <b>Naveen.</b>
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    By <b>Naveen.</b>
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 23, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    By <b>Naveen.</b>
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225470.7738445963!2d-82.45428044999997!3d27.99448254999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20FL!5e0!3m2!1sen!2sus!4v1711085746623!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
